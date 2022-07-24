@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <Image src='/image/bg.png' layout='fill' alt='background' />
+        <Image src='/images/bg.png' layout='fill' alt='background' objectFit='cover' />
       </div>
       <div className={styles.item}>
         <div className={styles.card}>
@@ -36,7 +36,17 @@ const Footer = () => {
             <br /> 719-226-8669
           </p>
         </div>
-        <div className={styles.card}></div>
+        <div className={styles.card}>
+          <h1 className={styles.title}>WORKING HOURS</h1>
+          <p className={styles.text}>
+            MONDAY THROUGH FRIDAY
+            <br /> 11:00 AM - 11:00 PM
+          </p>
+          <p className={styles.text}>
+            SATURDAY THROUGH SUNDAY
+            <br /> 12:00 PM - 10:00 PM
+          </p>
+        </div>
       </div>
     </div>
   )
