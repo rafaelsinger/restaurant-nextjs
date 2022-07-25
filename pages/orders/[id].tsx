@@ -16,7 +16,7 @@ const Order = () => {
         <div className={styles.left}>
             <div className={styles.row}>
             <table className={styles.table}>
-                <thead className={styles.tr}>
+                <thead className={styles.trTitle}>
                     <tr>
                         <th>Order ID</th>
                         <th>Customer</th>
@@ -25,7 +25,7 @@ const Order = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className={styles.tr}>
                         <td>
                             <span className={styles.id}>6127983</span>
                         </td>
